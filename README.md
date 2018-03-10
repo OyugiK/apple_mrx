@@ -5,6 +5,9 @@ The main components are :
 1. PHP mini site
 2. Java rest web service
 
+site URL :
+http://ec2-34-245-152-122.eu-west-1.compute.amazonaws.com/apple/index.php
+
 
 The rest endpoint : 
 http://34.245.152.122:8080/apple_mrx/autheticate
