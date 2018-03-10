@@ -1,0 +1,1036 @@
+2018-03-10 18:24:04 - DEBUG --> checking session(f12f77bf86d62bc0954f63cdbb122970)
+2018-03-10 18:24:04 - INFO  --> jsonData {"token":"f12f77bf86d62bc0954f63cdbb122970","msisdn":"9696868"}
+2018-03-10 18:24:04 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:24:04 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:24:04 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:25:12 - DEBUG --> starting index (1520695444)
+2018-03-10 18:25:12 - DEBUG --> index session (f12f77bf86d62bc0954f63cdbb122970)
+2018-03-10 18:25:12 - DEBUG --> xxstart(1520695444)
+2018-03-10 18:25:12 - DEBUG --> xxend(1520697244)
+2018-03-10 18:25:12 - DEBUG --> checking session xxxxxx(1520695444)
+2018-03-10 18:25:12 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:12 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:25:12 - DEBUG --> checking session(f12f77bf86d62bc0954f63cdbb122970)
+2018-03-10 18:25:12 - INFO  --> jsonData {"token":"f12f77bf86d62bc0954f63cdbb122970","msisdn":"9696868"}
+2018-03-10 18:25:12 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:25:12 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:25:12 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:25:14 - DEBUG --> starting index (1520695444)
+2018-03-10 18:25:14 - DEBUG --> index session (f12f77bf86d62bc0954f63cdbb122970)
+2018-03-10 18:25:14 - DEBUG --> xxstart(1520695444)
+2018-03-10 18:25:14 - DEBUG --> xxend(1520697244)
+2018-03-10 18:25:14 - DEBUG --> checking session xxxxxx(1520695444)
+2018-03-10 18:25:14 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:14 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:25:14 - DEBUG --> checking session(f12f77bf86d62bc0954f63cdbb122970)
+2018-03-10 18:25:14 - INFO  --> jsonData {"token":"f12f77bf86d62bc0954f63cdbb122970","msisdn":"9696868"}
+2018-03-10 18:25:14 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:25:14 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:25:14 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:25:19 - INFO  --> jold 1111 token b76f9f58cfee329d85b7dca5cba62a32
+2018-03-10 18:25:24 - INFO  --> jold 1111 token aeb8a8daf96fc45517b6120f48f9d315
+2018-03-10 18:25:24 - INFO  --> POTS token 1111 aeb8a8daf96fc45517b6120f48f9d315
+2018-03-10 18:25:24 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:24 - INFO  --> in getUser tom
+2018-03-10 18:25:24 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:25:24 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:25:24 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:25:24 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:24 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:25:24 - DEBUG --> select()-> ok
+2018-03-10 18:25:24 - DEBUG --> select()-> 1 rows
+2018-03-10 18:25:24 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:25:24 - DEBUG --> disconnect()
+2018-03-10 18:25:24 - DEBUG --> disconnect()->1
+2018-03-10 18:25:24 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:25:24 - DEBUG --> userInfoStr ->
+2018-03-10 18:25:24 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:25:24 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:25:24 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:25:24 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:25:24 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:25:24 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:25:24 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:25:24 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:25:24 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:25:24 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:25:24 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:25:24 - DEBUG --> password(test)
+2018-03-10 18:25:24 - INFO  --> SSS jold token aeb8a8daf96fc45517b6120f48f9d315
+2018-03-10 18:25:24 - INFO  --> AAA jold token
+2018-03-10 18:25:24 - DEBUG --> signedToken(aeb8a8daf96fc45517b6120f48f9d315)
+2018-03-10 18:25:24 - DEBUG --> user_id(19)
+2018-03-10 18:25:24 - INFO  --> in getUser aeb8a8daf96fc45517b6120f48f9d315, 19
+2018-03-10 18:25:24 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => aeb8a8daf96fc45517b6120f48f9d315
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:25:24 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,aeb8a8daf96fc45517b6120f48f9d315loggged_in19)
+2018-03-10 18:25:24 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:25:24 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:24 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:25:24 - DEBUG --> select()-> ok
+2018-03-10 18:25:24 - DEBUG --> select()-> 0 rows
+2018-03-10 18:25:24 - DEBUG --> disconnect()
+2018-03-10 18:25:24 - DEBUG --> disconnect()->1
+2018-03-10 18:25:24 - INFO  --> result(objectInfo)
+2018-03-10 18:25:24 - DEBUG --> Running result()
+2018-03-10 18:25:24 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:25:24 - DEBUG --> successfully updated user info
+2018-03-10 18:25:24 - DEBUG --> start(1520695524)
+2018-03-10 18:25:24 - DEBUG --> end(1520697324)
+2018-03-10 18:25:24 - DEBUG --> starting index (1520695524)
+2018-03-10 18:25:24 - DEBUG --> index session (aeb8a8daf96fc45517b6120f48f9d315)
+2018-03-10 18:25:24 - DEBUG --> xxstart(1520695524)
+2018-03-10 18:25:24 - DEBUG --> xxend(1520697324)
+2018-03-10 18:25:24 - DEBUG --> checking session xxxxxx(1520695524)
+2018-03-10 18:25:24 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:24 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:25:24 - DEBUG --> checking session(aeb8a8daf96fc45517b6120f48f9d315)
+2018-03-10 18:25:24 - INFO  --> jsonData {"token":"aeb8a8daf96fc45517b6120f48f9d315","msisdn":"9696868"}
+2018-03-10 18:25:24 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:25:24 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:25:24 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:25:41 - INFO  --> jold 1111 token 0f8419f16633f0a7fdca699430af0265
+2018-03-10 18:25:51 - INFO  --> jold 1111 token 0a0c212997e520541e3a485201b208f4
+2018-03-10 18:25:51 - INFO  --> POTS token 1111 0a0c212997e520541e3a485201b208f4
+2018-03-10 18:25:51 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:51 - INFO  --> in getUser tom
+2018-03-10 18:25:51 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:25:51 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:25:51 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:25:51 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:51 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:25:51 - DEBUG --> select()-> ok
+2018-03-10 18:25:51 - DEBUG --> select()-> 1 rows
+2018-03-10 18:25:51 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:25:51 - DEBUG --> disconnect()
+2018-03-10 18:25:51 - DEBUG --> disconnect()->1
+2018-03-10 18:25:51 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:25:51 - DEBUG --> userInfoStr ->
+2018-03-10 18:25:51 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:25:51 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:25:51 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:25:51 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:25:51 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:25:51 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:25:51 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:25:51 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:25:51 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:25:51 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:25:51 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:25:51 - DEBUG --> password(test)
+2018-03-10 18:25:51 - INFO  --> SSS jold token 0a0c212997e520541e3a485201b208f4
+2018-03-10 18:25:51 - INFO  --> AAA jold token
+2018-03-10 18:25:51 - DEBUG --> signedToken(0a0c212997e520541e3a485201b208f4)
+2018-03-10 18:25:51 - DEBUG --> user_id(19)
+2018-03-10 18:25:51 - INFO  --> in getUser 0a0c212997e520541e3a485201b208f4, 19
+2018-03-10 18:25:51 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => 0a0c212997e520541e3a485201b208f4
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:25:51 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,0a0c212997e520541e3a485201b208f4loggged_in19)
+2018-03-10 18:25:51 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:25:51 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:51 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:25:51 - DEBUG --> select()-> ok
+2018-03-10 18:25:51 - DEBUG --> select()-> 0 rows
+2018-03-10 18:25:51 - DEBUG --> disconnect()
+2018-03-10 18:25:51 - DEBUG --> disconnect()->1
+2018-03-10 18:25:51 - INFO  --> result(objectInfo)
+2018-03-10 18:25:51 - DEBUG --> Running result()
+2018-03-10 18:25:51 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:25:51 - DEBUG --> successfully updated user info
+2018-03-10 18:25:51 - DEBUG --> start(1520695551)
+2018-03-10 18:25:51 - DEBUG --> end(1520697351)
+2018-03-10 18:25:51 - DEBUG --> starting index (1520695551)
+2018-03-10 18:25:51 - DEBUG --> index session (0a0c212997e520541e3a485201b208f4)
+2018-03-10 18:25:51 - DEBUG --> xxstart(1520695551)
+2018-03-10 18:25:51 - DEBUG --> xxend(1520697351)
+2018-03-10 18:25:51 - DEBUG --> checking session xxxxxx(1520695551)
+2018-03-10 18:25:51 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:25:51 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:25:51 - DEBUG --> checking session(0a0c212997e520541e3a485201b208f4)
+2018-03-10 18:25:51 - INFO  --> jsonData {"token":"0a0c212997e520541e3a485201b208f4","msisdn":"9696868"}
+2018-03-10 18:25:51 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:25:51 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:25:51 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:26:18 - DEBUG --> starting index (1520695551)
+2018-03-10 18:26:18 - DEBUG --> index session (0a0c212997e520541e3a485201b208f4)
+2018-03-10 18:26:18 - DEBUG --> xxstart(1520695551)
+2018-03-10 18:26:18 - DEBUG --> xxend(1520697351)
+2018-03-10 18:26:18 - DEBUG --> checking session xxxxxx(1520695551)
+2018-03-10 18:26:18 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:26:18 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:26:18 - DEBUG --> checking session(0a0c212997e520541e3a485201b208f4)
+2018-03-10 18:26:18 - INFO  --> jsonData {"token":"0a0c212997e520541e3a485201b208f4","msisdn":"9696868"}
+2018-03-10 18:26:18 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:26:18 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:26:18 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:26:20 - INFO  --> jold 1111 token 049521b4843839113ba92b5608b676b0
+2018-03-10 18:27:16 - INFO  --> jold 1111 token 4fb2462ec35c26ecb028e1aaaa4f0aef
+2018-03-10 18:27:16 - INFO  --> POTS token 1111 4fb2462ec35c26ecb028e1aaaa4f0aef
+2018-03-10 18:27:16 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:27:16 - INFO  --> in getUser tom
+2018-03-10 18:27:16 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:27:16 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:27:16 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:27:16 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:27:16 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:27:16 - DEBUG --> select()-> ok
+2018-03-10 18:27:16 - DEBUG --> select()-> 1 rows
+2018-03-10 18:27:16 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:27:16 - DEBUG --> disconnect()
+2018-03-10 18:27:16 - DEBUG --> disconnect()->1
+2018-03-10 18:27:16 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:27:16 - DEBUG --> userInfoStr ->
+2018-03-10 18:27:16 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:27:16 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:27:16 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:27:16 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:27:16 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:27:16 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:27:16 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:27:16 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:27:16 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:27:16 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:27:16 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:27:16 - DEBUG --> password(test)
+2018-03-10 18:27:16 - INFO  --> SSS jold token 4fb2462ec35c26ecb028e1aaaa4f0aef
+2018-03-10 18:27:16 - INFO  --> AAA jold token
+2018-03-10 18:27:16 - DEBUG --> signedToken(4fb2462ec35c26ecb028e1aaaa4f0aef)
+2018-03-10 18:27:16 - DEBUG --> user_id(19)
+2018-03-10 18:27:16 - INFO  --> in getUser 4fb2462ec35c26ecb028e1aaaa4f0aef, 19
+2018-03-10 18:27:16 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => 4fb2462ec35c26ecb028e1aaaa4f0aef
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:27:16 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,4fb2462ec35c26ecb028e1aaaa4f0aefloggged_in19)
+2018-03-10 18:27:16 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:27:16 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:27:16 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:27:16 - DEBUG --> select()-> ok
+2018-03-10 18:27:16 - DEBUG --> select()-> 0 rows
+2018-03-10 18:27:16 - DEBUG --> disconnect()
+2018-03-10 18:27:16 - DEBUG --> disconnect()->1
+2018-03-10 18:27:16 - INFO  --> result(objectInfo)
+2018-03-10 18:27:16 - DEBUG --> Running result()
+2018-03-10 18:27:16 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:27:16 - DEBUG --> successfully updated user info
+2018-03-10 18:27:16 - DEBUG --> start(1520695636)
+2018-03-10 18:27:16 - DEBUG --> end(1520697436)
+2018-03-10 18:27:16 - DEBUG --> starting index (1520695636)
+2018-03-10 18:27:16 - DEBUG --> index session (4fb2462ec35c26ecb028e1aaaa4f0aef)
+2018-03-10 18:27:16 - DEBUG --> xxstart(1520695636)
+2018-03-10 18:27:16 - DEBUG --> xxend(1520697436)
+2018-03-10 18:27:16 - DEBUG --> checking session xxxxxx(1520695636)
+2018-03-10 18:27:16 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:27:16 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:27:16 - DEBUG --> checking session(4fb2462ec35c26ecb028e1aaaa4f0aef)
+2018-03-10 18:27:16 - INFO  --> jsonData {"token":"4fb2462ec35c26ecb028e1aaaa4f0aef","msisdn":"9696868"}
+2018-03-10 18:27:16 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:27:16 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:27:16 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:27:18 - INFO  --> jold 1111 token 75a39d0b151b0f915bd91279b1aa58a1
+2018-03-10 18:27:20 - INFO  --> jold 1111 token 618f29929418fecce7981470355a7910
+2018-03-10 18:27:22 - INFO  --> jold 1111 token 65fcc0a71e0aaafac1df48ec45de6e07
+2018-03-10 18:27:23 - INFO  --> jold 1111 token dbf6151c1cb4ced5b0fa3020767f42c5
+2018-03-10 18:28:02 - INFO  --> jold 1111 token d2da3cd28d6b4c57f916b97d5ae8cc8e
+2018-03-10 18:28:02 - INFO  --> POTS token 1111 d2da3cd28d6b4c57f916b97d5ae8cc8e
+2018-03-10 18:28:02 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:02 - INFO  --> in getUser tom
+2018-03-10 18:28:02 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:28:02 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:28:02 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:28:02 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:02 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:28:02 - DEBUG --> select()-> ok
+2018-03-10 18:28:02 - DEBUG --> select()-> 1 rows
+2018-03-10 18:28:02 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:28:02 - DEBUG --> disconnect()
+2018-03-10 18:28:02 - DEBUG --> disconnect()->1
+2018-03-10 18:28:02 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:28:02 - DEBUG --> userInfoStr ->
+2018-03-10 18:28:02 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:28:02 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:28:02 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:28:02 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:28:02 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:28:02 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:28:02 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:28:02 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:28:02 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:28:02 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:28:02 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:28:02 - DEBUG --> password(test)
+2018-03-10 18:28:02 - INFO  --> SSS jold token d2da3cd28d6b4c57f916b97d5ae8cc8e
+2018-03-10 18:28:02 - INFO  --> AAA jold token
+2018-03-10 18:28:02 - DEBUG --> signedToken(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:02 - DEBUG --> user_id(19)
+2018-03-10 18:28:02 - INFO  --> in getUser d2da3cd28d6b4c57f916b97d5ae8cc8e, 19
+2018-03-10 18:28:02 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => d2da3cd28d6b4c57f916b97d5ae8cc8e
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:28:02 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,d2da3cd28d6b4c57f916b97d5ae8cc8eloggged_in19)
+2018-03-10 18:28:02 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:28:02 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:02 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:28:02 - DEBUG --> select()-> ok
+2018-03-10 18:28:02 - DEBUG --> select()-> 0 rows
+2018-03-10 18:28:02 - DEBUG --> disconnect()
+2018-03-10 18:28:02 - DEBUG --> disconnect()->1
+2018-03-10 18:28:02 - INFO  --> result(objectInfo)
+2018-03-10 18:28:02 - DEBUG --> Running result()
+2018-03-10 18:28:02 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:28:02 - DEBUG --> successfully updated user info
+2018-03-10 18:28:02 - DEBUG --> start(1520695682)
+2018-03-10 18:28:02 - DEBUG --> end(1520697482)
+2018-03-10 18:28:02 - DEBUG --> starting index (1520695682)
+2018-03-10 18:28:02 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:02 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:28:02 - DEBUG --> xxend(1520697482)
+2018-03-10 18:28:02 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:28:02 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:02 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:28:02 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:02 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:28:02 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:28:02 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:28:02 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:28:03 - INFO  --> jold 1111 token 41acbcb54d0a309996dfa2bdaa473983
+2018-03-10 18:28:06 - INFO  --> jold 1111 token 75b7f70ad7c5ff28450d3152c2601085
+2018-03-10 18:28:07 - INFO  --> jold 1111 token 3ada6342b925e853e25c6542aeb821ee
+2018-03-10 18:28:08 - DEBUG --> starting index (1520695682)
+2018-03-10 18:28:08 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:08 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:28:08 - DEBUG --> xxend(1520697482)
+2018-03-10 18:28:08 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:28:08 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:08 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:28:08 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:08 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:28:08 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:28:08 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:28:08 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:28:13 - INFO  --> jold 1111 token 38ddeb51d3e346f266f1bb00340f89e5
+2018-03-10 18:28:18 - DEBUG --> starting index (1520695682)
+2018-03-10 18:28:18 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:18 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:28:18 - DEBUG --> xxend(1520697482)
+2018-03-10 18:28:18 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:28:18 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:18 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:28:18 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:18 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:28:18 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:28:18 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:28:18 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:28:19 - INFO  --> jold 1111 token f7510ea33df1940b57c04297b609bca1
+2018-03-10 18:28:20 - DEBUG --> starting index (1520695682)
+2018-03-10 18:28:20 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:20 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:28:20 - DEBUG --> xxend(1520697482)
+2018-03-10 18:28:20 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:28:20 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:20 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:28:20 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:20 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:28:20 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:28:20 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:28:20 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:28:20 - INFO  --> jold 1111 token cc89190657c80a9d854a73b186c4abf3
+2018-03-10 18:28:21 - DEBUG --> starting index (1520695682)
+2018-03-10 18:28:21 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:21 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:28:21 - DEBUG --> xxend(1520697482)
+2018-03-10 18:28:21 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:28:21 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:21 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:28:21 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:21 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:28:21 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:28:21 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:28:21 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:28:48 - INFO  --> jold 1111 token bc920283a22d2285925c8ccd8122266b
+2018-03-10 18:28:57 - DEBUG --> starting index (1520695682)
+2018-03-10 18:28:57 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:57 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:28:57 - DEBUG --> xxend(1520697482)
+2018-03-10 18:28:57 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:28:57 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:28:57 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:28:57 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:28:57 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:28:57 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:28:57 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:28:57 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:29:05 - INFO  --> jold 1111 token 57976680a24182fd9d867a7ee29a01d9
+2018-03-10 18:30:02 - INFO  --> jold 1111 token d32fac8b3d875bbc5b780976ab500bf9
+2018-03-10 18:30:52 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:30:52 - DEBUG --> starting index (1520695682)
+2018-03-10 18:30:52 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:30:52 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:30:52 - DEBUG --> xxend(1520697482)
+2018-03-10 18:30:52 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:30:52 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:30:52 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:30:52 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:30:52 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:30:52 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:30:52 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:30:52 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:32:05 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:32:07 - INFO  --> jold 1111 token f425192f60e5391e68dd0e5db05fb517
+2018-03-10 18:32:07 - DEBUG --> starting index (1520695682)
+2018-03-10 18:32:07 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:32:07 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:32:07 - DEBUG --> xxend(1520697482)
+2018-03-10 18:32:07 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:32:07 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:32:07 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:32:07 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:32:07 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:32:07 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:32:07 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:32:07 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:32:39 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:32:40 - INFO  --> jold 1111 token b191cc177aaad1a56646b666467065a1
+2018-03-10 18:32:40 - DEBUG --> starting index (1520695682)
+2018-03-10 18:32:40 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:32:40 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:32:40 - DEBUG --> xxend(1520697482)
+2018-03-10 18:32:40 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:32:40 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:32:40 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:32:40 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:32:40 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:32:40 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:32:40 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:32:40 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:33:20 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:33:21 - INFO  --> jold 1111 token c34454f9ab913442c65fc33728ee13fc
+2018-03-10 18:33:21 - DEBUG --> starting index (1520695682)
+2018-03-10 18:33:21 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:33:21 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:33:21 - DEBUG --> xxend(1520697482)
+2018-03-10 18:33:21 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:33:21 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:33:21 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:33:21 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:33:21 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:33:21 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:33:21 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:33:21 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:33:46 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:33:46 - INFO  --> jold 1111 token 1bdc8e5e75fe7427ff48d3c5d38035ba
+2018-03-10 18:33:46 - DEBUG --> starting index (1520695682)
+2018-03-10 18:33:46 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:33:46 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:33:46 - DEBUG --> xxend(1520697482)
+2018-03-10 18:33:46 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:33:46 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:33:46 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:33:46 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:33:46 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:33:46 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:33:46 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:33:46 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:34:15 - INFO  --> jold 1111 token 17a861d07f91652ef54019e38d8900fa
+2018-03-10 18:34:15 - DEBUG --> starting index (1520695682)
+2018-03-10 18:34:15 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:34:15 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:34:15 - DEBUG --> xxend(1520697482)
+2018-03-10 18:34:15 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:34:15 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:34:15 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:34:15 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:34:15 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:34:15 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:34:15 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:34:15 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:34:17 - INFO  --> jold 1111 token 316cd637e43430b953af71b9fad7ac02
+2018-03-10 18:34:17 - DEBUG --> starting index (1520695682)
+2018-03-10 18:34:17 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:34:17 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:34:17 - DEBUG --> xxend(1520697482)
+2018-03-10 18:34:17 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:34:17 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:34:17 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:34:17 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:34:17 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:34:17 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:34:17 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:34:17 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:34:19 - INFO  --> jold 1111 token 2862ad74bf3ce72d5dd3fe30b8e7e971
+2018-03-10 18:34:19 - DEBUG --> starting index (1520695682)
+2018-03-10 18:34:19 - DEBUG --> index session (d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:34:19 - DEBUG --> xxstart(1520695682)
+2018-03-10 18:34:19 - DEBUG --> xxend(1520697482)
+2018-03-10 18:34:19 - DEBUG --> checking session xxxxxx(1520695682)
+2018-03-10 18:34:19 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:34:19 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:34:19 - DEBUG --> checking session(d2da3cd28d6b4c57f916b97d5ae8cc8e)
+2018-03-10 18:34:19 - INFO  --> jsonData {"token":"d2da3cd28d6b4c57f916b97d5ae8cc8e","msisdn":"9696868"}
+2018-03-10 18:34:19 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:34:19 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:34:19 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:34:45 - INFO  --> jold 1111 token
+2018-03-10 18:34:47 - INFO  --> jold 1111 token aecb827e965261b3858f7150c04346a4
+2018-03-10 18:34:48 - DEBUG --> starting index ()
+2018-03-10 18:34:48 - DEBUG --> index session ()
+2018-03-10 18:34:48 - INFO  --> jold 1111 token 9a014664a6916bed8b256429c4612e1a
+2018-03-10 18:34:49 - INFO  --> jold 1111 token 1e5e3ca6f6c3ada7852560a2250616e6
+2018-03-10 18:34:50 - DEBUG --> starting index ()
+2018-03-10 18:34:50 - DEBUG --> index session ()
+2018-03-10 18:34:50 - INFO  --> jold 1111 token eaa2a77b9cc812aeb60e1dd260cccb34
+2018-03-10 18:34:50 - INFO  --> jold 1111 token dba23ed9fbcea9f256174c857820ac39
+2018-03-10 18:34:50 - DEBUG --> starting index ()
+2018-03-10 18:34:50 - DEBUG --> index session ()
+2018-03-10 18:34:50 - INFO  --> jold 1111 token faea408b9ca78e19996277e3c51b6ac2
+2018-03-10 18:34:50 - INFO  --> jold 1111 token 683c57203142a7a223a750c3ed9751c5
+2018-03-10 18:34:51 - DEBUG --> starting index ()
+2018-03-10 18:34:51 - DEBUG --> index session ()
+2018-03-10 18:34:51 - INFO  --> jold 1111 token 8a98d8bf8956ba2b1a60d2e862e06bd5
+2018-03-10 18:34:51 - INFO  --> jold 1111 token c21010211386ce9e6868109796247c43
+2018-03-10 18:34:51 - DEBUG --> starting index ()
+2018-03-10 18:34:51 - DEBUG --> index session ()
+2018-03-10 18:34:51 - INFO  --> jold 1111 token d758437c53abe317fcc55146f91c4966
+2018-03-10 18:34:51 - INFO  --> jold 1111 token 57d8c45100f2909354a8e628935494a1
+2018-03-10 18:34:51 - INFO  --> jold 1111 token 22f3980c837c34c8c65fd3ad6133a5f5
+2018-03-10 18:34:51 - INFO  --> jold 1111 token 8235017e9226199caf2824126e5b3e62
+2018-03-10 18:34:52 - DEBUG --> starting index ()
+2018-03-10 18:34:52 - DEBUG --> index session ()
+2018-03-10 18:34:52 - INFO  --> jold 1111 token 73495b87f9ca8352815d1a6d513ff597
+2018-03-10 18:34:52 - INFO  --> jold 1111 token f53cfffd1f34791ed5628bb95ea5f202
+2018-03-10 18:34:52 - DEBUG --> starting index ()
+2018-03-10 18:34:52 - DEBUG --> index session ()
+2018-03-10 18:34:52 - INFO  --> jold 1111 token 47707947010982f18aca0ae08465c17c
+2018-03-10 18:34:52 - INFO  --> jold 1111 token 06d48ff5d5c9aa1242a076eff08ed0bb
+2018-03-10 18:34:52 - DEBUG --> starting index ()
+2018-03-10 18:34:52 - DEBUG --> index session ()
+2018-03-10 18:34:52 - INFO  --> jold 1111 token 13a10b99b0f0799669d03306618096a2
+2018-03-10 18:34:52 - INFO  --> jold 1111 token 25b8c6217c7fad5204c089c2f426cb1c
+2018-03-10 18:34:53 - DEBUG --> starting index ()
+2018-03-10 18:34:53 - DEBUG --> index session ()
+2018-03-10 18:34:53 - INFO  --> jold 1111 token 9c4513faff7db57a6cd454b1c5510cdd
+2018-03-10 18:34:53 - DEBUG --> starting index ()
+2018-03-10 18:34:53 - DEBUG --> index session ()
+2018-03-10 18:34:53 - INFO  --> jold 1111 token 6c86777b6dfa6ef0b0784c01647fee7b
+2018-03-10 18:34:53 - DEBUG --> starting index ()
+2018-03-10 18:34:53 - DEBUG --> index session ()
+2018-03-10 18:34:53 - DEBUG --> starting index ()
+2018-03-10 18:34:53 - DEBUG --> index session ()
+2018-03-10 18:34:53 - INFO  --> jold 1111 token 519e192c39189151d4eee13d0abb18e3
+2018-03-10 18:35:04 - DEBUG --> starting index ()
+2018-03-10 18:35:04 - DEBUG --> index session ()
+2018-03-10 18:35:04 - INFO  --> jold 1111 token 4437c1b3b382e5448053a4e6cbbf15b2
+2018-03-10 18:35:13 - INFO  --> jold 1111 token f37be8f97f5c499d9edc9c2858e8ddff
+2018-03-10 18:35:13 - INFO  --> POTS token 1111 f37be8f97f5c499d9edc9c2858e8ddff
+2018-03-10 18:35:13 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:13 - INFO  --> in getUser tom
+2018-03-10 18:35:13 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:35:13 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:35:13 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:35:13 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:13 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:35:13 - DEBUG --> select()-> ok
+2018-03-10 18:35:13 - DEBUG --> select()-> 1 rows
+2018-03-10 18:35:13 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:35:13 - DEBUG --> disconnect()
+2018-03-10 18:35:13 - DEBUG --> disconnect()->1
+2018-03-10 18:35:13 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:35:13 - DEBUG --> userInfoStr ->
+2018-03-10 18:35:13 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:35:13 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:35:13 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:35:13 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:35:13 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:35:13 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:35:13 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:35:13 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:35:13 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:35:13 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:35:13 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:35:13 - DEBUG --> password(test)
+2018-03-10 18:35:13 - INFO  --> SSS jold token f37be8f97f5c499d9edc9c2858e8ddff
+2018-03-10 18:35:13 - INFO  --> AAA jold token
+2018-03-10 18:35:13 - DEBUG --> signedToken(f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:13 - DEBUG --> user_id(19)
+2018-03-10 18:35:13 - INFO  --> in getUser f37be8f97f5c499d9edc9c2858e8ddff, 19
+2018-03-10 18:35:13 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => f37be8f97f5c499d9edc9c2858e8ddff
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:35:13 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,f37be8f97f5c499d9edc9c2858e8ddffloggged_in19)
+2018-03-10 18:35:13 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:35:13 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:13 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:35:13 - DEBUG --> select()-> ok
+2018-03-10 18:35:13 - DEBUG --> select()-> 0 rows
+2018-03-10 18:35:13 - DEBUG --> disconnect()
+2018-03-10 18:35:13 - DEBUG --> disconnect()->1
+2018-03-10 18:35:13 - INFO  --> result(objectInfo)
+2018-03-10 18:35:13 - DEBUG --> Running result()
+2018-03-10 18:35:13 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:35:13 - DEBUG --> successfully updated user info
+2018-03-10 18:35:13 - DEBUG --> start(1520696113)
+2018-03-10 18:35:13 - DEBUG --> end(1520697913)
+2018-03-10 18:35:13 - DEBUG --> starting index (1520696113)
+2018-03-10 18:35:13 - DEBUG --> index session (f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:13 - DEBUG --> xxstart(1520696113)
+2018-03-10 18:35:13 - DEBUG --> xxend(1520697913)
+2018-03-10 18:35:13 - DEBUG --> checking session xxxxxx(1520696113)
+2018-03-10 18:35:13 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:13 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:35:13 - DEBUG --> checking session(f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:13 - INFO  --> jsonData {"token":"f37be8f97f5c499d9edc9c2858e8ddff","msisdn":"9696868"}
+2018-03-10 18:35:13 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:35:13 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:35:13 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:35:15 - INFO  --> jold 1111 token 951e74d892905588bc30d055e437ef1b
+2018-03-10 18:35:16 - DEBUG --> starting index (1520696113)
+2018-03-10 18:35:16 - DEBUG --> index session (f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:16 - DEBUG --> xxstart(1520696113)
+2018-03-10 18:35:16 - DEBUG --> xxend(1520697913)
+2018-03-10 18:35:16 - DEBUG --> checking session xxxxxx(1520696113)
+2018-03-10 18:35:16 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:16 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:35:16 - DEBUG --> checking session(f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:16 - INFO  --> jsonData {"token":"f37be8f97f5c499d9edc9c2858e8ddff","msisdn":"9696868"}
+2018-03-10 18:35:16 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:35:16 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:35:16 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:35:16 - INFO  --> jold 1111 token 662807ba495a2a0cee0579d2f2b538ab
+2018-03-10 18:35:17 - DEBUG --> starting index (1520696113)
+2018-03-10 18:35:17 - DEBUG --> index session (f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:17 - DEBUG --> xxstart(1520696113)
+2018-03-10 18:35:17 - DEBUG --> xxend(1520697913)
+2018-03-10 18:35:17 - DEBUG --> checking session xxxxxx(1520696113)
+2018-03-10 18:35:17 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:17 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:35:17 - DEBUG --> checking session(f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:17 - INFO  --> jsonData {"token":"f37be8f97f5c499d9edc9c2858e8ddff","msisdn":"9696868"}
+2018-03-10 18:35:17 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:35:17 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:35:17 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:35:18 - DEBUG --> starting index (1520696113)
+2018-03-10 18:35:18 - DEBUG --> index session (f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:18 - DEBUG --> xxstart(1520696113)
+2018-03-10 18:35:18 - DEBUG --> xxend(1520697913)
+2018-03-10 18:35:18 - DEBUG --> checking session xxxxxx(1520696113)
+2018-03-10 18:35:18 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:18 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:35:18 - DEBUG --> checking session(f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:18 - INFO  --> jsonData {"token":"f37be8f97f5c499d9edc9c2858e8ddff","msisdn":"9696868"}
+2018-03-10 18:35:18 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:35:18 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:35:18 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:35:18 - DEBUG --> starting index (1520696113)
+2018-03-10 18:35:18 - DEBUG --> index session (f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:18 - DEBUG --> xxstart(1520696113)
+2018-03-10 18:35:18 - DEBUG --> xxend(1520697913)
+2018-03-10 18:35:18 - DEBUG --> checking session xxxxxx(1520696113)
+2018-03-10 18:35:18 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:35:18 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:35:18 - DEBUG --> checking session(f37be8f97f5c499d9edc9c2858e8ddff)
+2018-03-10 18:35:18 - INFO  --> jsonData {"token":"f37be8f97f5c499d9edc9c2858e8ddff","msisdn":"9696868"}
+2018-03-10 18:35:18 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:35:18 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:35:18 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:35:20 - INFO  --> jold 1111 token
+2018-03-10 18:35:30 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:36:33 - INFO  --> jold 1111 token 633a2b8630e78153a2c167297334b380
+2018-03-10 18:36:39 - INFO  --> jold 1111 token 157b033b760f7aec48fc27fa601506c5
+2018-03-10 18:36:39 - INFO  --> POTS token 1111 157b033b760f7aec48fc27fa601506c5
+2018-03-10 18:36:39 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:36:39 - INFO  --> in getUser tom
+2018-03-10 18:36:39 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:36:39 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:36:39 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:36:39 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:36:39 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:36:39 - DEBUG --> select()-> ok
+2018-03-10 18:36:39 - DEBUG --> select()-> 1 rows
+2018-03-10 18:36:39 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:36:39 - DEBUG --> disconnect()
+2018-03-10 18:36:39 - DEBUG --> disconnect()->1
+2018-03-10 18:36:39 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:36:39 - DEBUG --> userInfoStr ->
+2018-03-10 18:36:39 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:36:39 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:36:39 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:36:39 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:36:39 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:36:39 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:36:39 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:36:39 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:36:39 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:36:39 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:36:39 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:36:39 - DEBUG --> password(test)
+2018-03-10 18:36:39 - INFO  --> SSS jold token 157b033b760f7aec48fc27fa601506c5
+2018-03-10 18:36:39 - INFO  --> AAA jold token
+2018-03-10 18:36:39 - DEBUG --> signedToken(157b033b760f7aec48fc27fa601506c5)
+2018-03-10 18:36:39 - DEBUG --> user_id(19)
+2018-03-10 18:36:39 - INFO  --> in getUser 157b033b760f7aec48fc27fa601506c5, 19
+2018-03-10 18:36:39 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => 157b033b760f7aec48fc27fa601506c5
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:36:39 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,157b033b760f7aec48fc27fa601506c5loggged_in19)
+2018-03-10 18:36:39 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:36:39 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:36:39 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:36:39 - DEBUG --> select()-> ok
+2018-03-10 18:36:39 - DEBUG --> select()-> 0 rows
+2018-03-10 18:36:39 - DEBUG --> disconnect()
+2018-03-10 18:36:39 - DEBUG --> disconnect()->1
+2018-03-10 18:36:39 - INFO  --> result(objectInfo)
+2018-03-10 18:36:39 - DEBUG --> Running result()
+2018-03-10 18:36:39 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:36:39 - DEBUG --> successfully updated user info
+2018-03-10 18:36:39 - DEBUG --> start(1520696199)
+2018-03-10 18:36:39 - DEBUG --> end(1520697999)
+2018-03-10 18:36:39 - DEBUG --> starting index (1520696199)
+2018-03-10 18:36:39 - DEBUG --> index session (157b033b760f7aec48fc27fa601506c5)
+2018-03-10 18:36:39 - DEBUG --> xxstart(1520696199)
+2018-03-10 18:36:39 - DEBUG --> xxend(1520697999)
+2018-03-10 18:36:39 - DEBUG --> checking session xxxxxx(1520696199)
+2018-03-10 18:36:39 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:36:39 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:36:39 - DEBUG --> checking session(157b033b760f7aec48fc27fa601506c5)
+2018-03-10 18:36:39 - INFO  --> jsonData {"token":"157b033b760f7aec48fc27fa601506c5","msisdn":"9696868"}
+2018-03-10 18:36:40 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:36:40 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:36:40 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:36:41 - INFO  --> jold 1111 token
+2018-03-10 18:36:44 - DEBUG --> starting index ()
+2018-03-10 18:36:44 - DEBUG --> index session ()
+2018-03-10 18:36:44 - INFO  --> jold 1111 token 6e10ff1e36720476f4b7429216391b54
+2018-03-10 18:36:45 - INFO  --> jold 1111 token 1416433bdf1424059dbe80b4e831658e
+2018-03-10 18:36:46 - INFO  --> jold 1111 token 413f9634a90f68ae8546f8506d02223e
+2018-03-10 18:36:46 - INFO  --> jold 1111 token 6633d4e9d07990d36c3b6ec82d2d367f
+2018-03-10 18:36:48 - INFO  --> jold 1111 token a38fc37867d5f3fda1f9980c1ad11cbb
+2018-03-10 18:36:48 - INFO  --> jold 1111 token af3fdbfe59538c5f9ef7fdec70182d56
+2018-03-10 18:36:48 - INFO  --> jold 1111 token 7be8e368764425a4fd6c3d2810168bec
+2018-03-10 18:36:48 - INFO  --> jold 1111 token a1568216d1ba02a7a2172d09996d00f2
+2018-03-10 18:36:49 - INFO  --> jold 1111 token e0393f2c9baf60422e269841a2ed6357
+2018-03-10 18:38:03 - INFO  --> jold 1111 token 637d27f78f866e3bc58560507e9d9f9c
+2018-03-10 18:38:03 - INFO  --> POTS token 1111 637d27f78f866e3bc58560507e9d9f9c
+2018-03-10 18:38:03 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:38:03 - INFO  --> in getUser tom
+2018-03-10 18:38:03 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:38:03 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:38:03 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:38:03 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:38:03 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:38:03 - DEBUG --> select()-> ok
+2018-03-10 18:38:03 - DEBUG --> select()-> 1 rows
+2018-03-10 18:38:03 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:38:03 - DEBUG --> disconnect()
+2018-03-10 18:38:03 - DEBUG --> disconnect()->1
+2018-03-10 18:38:03 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:38:03 - DEBUG --> userInfoStr ->
+2018-03-10 18:38:03 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:38:03 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:38:03 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:38:03 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:38:03 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:38:03 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:38:03 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:38:03 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:38:03 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:38:03 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:38:03 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:38:03 - DEBUG --> password(test)
+2018-03-10 18:38:03 - INFO  --> SSS jold token 637d27f78f866e3bc58560507e9d9f9c
+2018-03-10 18:38:03 - INFO  --> AAA jold token
+2018-03-10 18:38:03 - DEBUG --> signedToken(637d27f78f866e3bc58560507e9d9f9c)
+2018-03-10 18:38:03 - DEBUG --> user_id(19)
+2018-03-10 18:38:03 - INFO  --> in getUser 637d27f78f866e3bc58560507e9d9f9c, 19
+2018-03-10 18:38:03 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => 637d27f78f866e3bc58560507e9d9f9c
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:38:03 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,637d27f78f866e3bc58560507e9d9f9cloggged_in19)
+2018-03-10 18:38:03 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:38:03 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:38:03 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:38:03 - DEBUG --> select()-> ok
+2018-03-10 18:38:03 - DEBUG --> select()-> 0 rows
+2018-03-10 18:38:03 - DEBUG --> disconnect()
+2018-03-10 18:38:03 - DEBUG --> disconnect()->1
+2018-03-10 18:38:03 - INFO  --> result(objectInfo)
+2018-03-10 18:38:03 - DEBUG --> Running result()
+2018-03-10 18:38:03 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:38:03 - DEBUG --> successfully updated user info
+2018-03-10 18:38:03 - DEBUG --> start(1520696283)
+2018-03-10 18:38:03 - DEBUG --> end(1520698083)
+2018-03-10 18:38:04 - DEBUG --> starting index (1520696283)
+2018-03-10 18:38:04 - DEBUG --> index session (637d27f78f866e3bc58560507e9d9f9c)
+2018-03-10 18:38:04 - DEBUG --> xxstart(1520696283)
+2018-03-10 18:38:04 - DEBUG --> xxend(1520698083)
+2018-03-10 18:38:04 - DEBUG --> checking session xxxxxx(1520696283)
+2018-03-10 18:38:04 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:38:04 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:38:04 - DEBUG --> checking session(637d27f78f866e3bc58560507e9d9f9c)
+2018-03-10 18:38:04 - INFO  --> jsonData {"token":"637d27f78f866e3bc58560507e9d9f9c","msisdn":"9696868"}
+2018-03-10 18:38:04 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:38:04 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:38:04 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:38:14 - DEBUG --> starting index (1520696283)
+2018-03-10 18:38:14 - DEBUG --> index session (637d27f78f866e3bc58560507e9d9f9c)
+2018-03-10 18:38:14 - DEBUG --> xxstart(1520696283)
+2018-03-10 18:38:14 - DEBUG --> xxend(1520698083)
+2018-03-10 18:38:14 - DEBUG --> checking session xxxxxx(1520696283)
+2018-03-10 18:38:14 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:38:14 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:38:14 - DEBUG --> checking session(637d27f78f866e3bc58560507e9d9f9c)
+2018-03-10 18:38:14 - INFO  --> jsonData {"token":"637d27f78f866e3bc58560507e9d9f9c","msisdn":"9696868"}
+2018-03-10 18:38:14 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:38:14 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:38:14 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:39:36 - INFO  --> jold 1111 token
+2018-03-10 18:39:45 - INFO  --> jold 1111 token 73caf5d55a57109c15bc46e956e29d13
+2018-03-10 18:39:45 - INFO  --> POTS token 1111 73caf5d55a57109c15bc46e956e29d13
+2018-03-10 18:39:45 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:39:45 - INFO  --> in getUser tom
+2018-03-10 18:39:45 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:39:45 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:39:45 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:39:45 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:39:45 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:39:45 - DEBUG --> select()-> ok
+2018-03-10 18:39:45 - DEBUG --> select()-> 1 rows
+2018-03-10 18:39:45 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:39:45 - DEBUG --> disconnect()
+2018-03-10 18:39:45 - DEBUG --> disconnect()->1
+2018-03-10 18:39:45 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:39:45 - DEBUG --> userInfoStr ->
+2018-03-10 18:39:45 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:39:45 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:39:45 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:39:45 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:39:45 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:39:45 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:39:45 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:39:45 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:39:45 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:39:45 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:39:45 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:39:45 - DEBUG --> password(test)
+2018-03-10 18:39:45 - INFO  --> SSS jold token 73caf5d55a57109c15bc46e956e29d13
+2018-03-10 18:39:45 - INFO  --> AAA jold token
+2018-03-10 18:39:45 - DEBUG --> signedToken(73caf5d55a57109c15bc46e956e29d13)
+2018-03-10 18:39:45 - DEBUG --> user_id(19)
+2018-03-10 18:39:45 - INFO  --> in getUser 73caf5d55a57109c15bc46e956e29d13, 19
+2018-03-10 18:39:45 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => 73caf5d55a57109c15bc46e956e29d13
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:39:45 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,73caf5d55a57109c15bc46e956e29d13loggged_in19)
+2018-03-10 18:39:45 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:39:45 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:39:45 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:39:45 - DEBUG --> select()-> ok
+2018-03-10 18:39:45 - DEBUG --> select()-> 0 rows
+2018-03-10 18:39:45 - DEBUG --> disconnect()
+2018-03-10 18:39:45 - DEBUG --> disconnect()->1
+2018-03-10 18:39:45 - INFO  --> result(objectInfo)
+2018-03-10 18:39:45 - DEBUG --> Running result()
+2018-03-10 18:39:45 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:39:45 - DEBUG --> successfully updated user info
+2018-03-10 18:39:45 - DEBUG --> start(1520696385)
+2018-03-10 18:39:45 - DEBUG --> end(1520698185)
+2018-03-10 18:39:46 - DEBUG --> starting index (1520696385)
+2018-03-10 18:39:46 - DEBUG --> index session (73caf5d55a57109c15bc46e956e29d13)
+2018-03-10 18:39:46 - DEBUG --> xxstart(1520696385)
+2018-03-10 18:39:46 - DEBUG --> xxend(1520698185)
+2018-03-10 18:39:46 - DEBUG --> checking session xxxxxx(1520696385)
+2018-03-10 18:39:46 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:39:46 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:39:46 - DEBUG --> checking session(73caf5d55a57109c15bc46e956e29d13)
+2018-03-10 18:39:46 - INFO  --> jsonData {"token":"73caf5d55a57109c15bc46e956e29d13","msisdn":"9696868"}
+2018-03-10 18:39:46 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:39:46 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:39:46 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:40:06 - INFO  --> jold 1111 token
+2018-03-10 18:40:15 - INFO  --> jold 1111 token 21a19021c50ff8575f5279299479378a
+2018-03-10 18:40:15 - INFO  --> POTS token 1111 21a19021c50ff8575f5279299479378a
+2018-03-10 18:40:15 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:40:15 - INFO  --> in getUser tom
+2018-03-10 18:40:15 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) with P(Array
+(
+    [0] => tom
+)
+)
+2018-03-10 18:40:15 - DEBUG --> select(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1,tom)
+2018-03-10 18:40:15 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:40:15 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:40:15 - DEBUG --> connect(dbConfig)->Resource id #13
+2018-03-10 18:40:15 - DEBUG --> select()-> ok
+2018-03-10 18:40:15 - DEBUG --> select()-> 1 rows
+2018-03-10 18:40:15 - DEBUG --> push() -> 19,tom,549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B,2,1,82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52,9696868
+2018-03-10 18:40:15 - DEBUG --> disconnect()
+2018-03-10 18:40:15 - DEBUG --> disconnect()->1
+2018-03-10 18:40:15 - DEBUG --> Running Q(select user_id, username, password, pin_tries, active_flags, salt, msisdn from account where username = $1) returns->
+2018-03-10 18:40:15 - DEBUG --> userInfoStr ->
+2018-03-10 18:40:15 - DEBUG --> Converting to HashMap counts be 7
+2018-03-10 18:40:15 - DEBUG --> Run 0 Setting user-id => 19
+2018-03-10 18:40:15 - DEBUG --> Run 1 Setting username => tom
+2018-03-10 18:40:15 - DEBUG --> Run 2 Setting password => 549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B
+2018-03-10 18:40:15 - DEBUG --> Run 3 Setting password-tries => 2
+2018-03-10 18:40:15 - DEBUG --> Run 4 Setting active-flags => 1
+2018-03-10 18:40:15 - DEBUG --> Run 5 Setting salt => 82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52
+2018-03-10 18:40:15 - DEBUG --> Run 6 Setting msisdn => 9696868
+2018-03-10 18:40:15 - DEBUG --> 1(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:40:15 - DEBUG --> 2(549E28CB720F1A9CF7C9CFC9386D0CE04E4733544D2BDE9BB9C82713828B9E0E22519625E730010C307BCDA2DB8EC6506D77A60663F12508768452E1ABE6B40B)
+2018-03-10 18:40:15 - DEBUG --> salt(82AEFEB88D621547AD5A2FE8C05714641AA71688AA1A35B4B1B567C108D53FB9670AC63FF9BBF5CB2086942DE70ACC209E55495EA0F116F87C511E79BED2AF52)
+2018-03-10 18:40:15 - DEBUG --> password(test)
+2018-03-10 18:40:15 - INFO  --> SSS jold token 21a19021c50ff8575f5279299479378a
+2018-03-10 18:40:15 - INFO  --> AAA jold token
+2018-03-10 18:40:15 - DEBUG --> signedToken(21a19021c50ff8575f5279299479378a)
+2018-03-10 18:40:15 - DEBUG --> user_id(19)
+2018-03-10 18:40:15 - INFO  --> in getUser 21a19021c50ff8575f5279299479378a, 19
+2018-03-10 18:40:15 - DEBUG --> Running Q(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3) with P(Array
+(
+    [0] => 21a19021c50ff8575f5279299479378a
+    [1] => loggged_in
+    [2] => 19
+)
+)
+2018-03-10 18:40:15 - DEBUG --> select(UPDATE account SET current_session=$1, status=$2 WHERE user_id = $3,21a19021c50ff8575f5279299479378aloggged_in19)
+2018-03-10 18:40:15 - DEBUG --> init?(dbConfig) -> 1
+2018-03-10 18:40:15 - DEBUG --> connect(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:40:15 - DEBUG --> connect(dbConfig)->Resource id #17
+2018-03-10 18:40:15 - DEBUG --> select()-> ok
+2018-03-10 18:40:15 - DEBUG --> select()-> 0 rows
+2018-03-10 18:40:15 - DEBUG --> disconnect()
+2018-03-10 18:40:15 - DEBUG --> disconnect()->1
+2018-03-10 18:40:15 - INFO  --> result(objectInfo)
+2018-03-10 18:40:15 - DEBUG --> Running result()
+2018-03-10 18:40:15 - DEBUG --> Updated DB for () -> result->Array
+(
+)
+
+2018-03-10 18:40:15 - DEBUG --> successfully updated user info
+2018-03-10 18:40:15 - DEBUG --> start(1520696415)
+2018-03-10 18:40:15 - DEBUG --> end(1520698215)
+2018-03-10 18:40:15 - DEBUG --> starting index (1520696415)
+2018-03-10 18:40:15 - DEBUG --> index session (21a19021c50ff8575f5279299479378a)
+2018-03-10 18:40:15 - DEBUG --> xxstart(1520696415)
+2018-03-10 18:40:15 - DEBUG --> xxend(1520698215)
+2018-03-10 18:40:15 - DEBUG --> checking session xxxxxx(1520696415)
+2018-03-10 18:40:15 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:40:15 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:40:15 - DEBUG --> checking session(21a19021c50ff8575f5279299479378a)
+2018-03-10 18:40:15 - INFO  --> jsonData {"token":"21a19021c50ff8575f5279299479378a","msisdn":"9696868"}
+2018-03-10 18:40:15 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:40:15 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:40:15 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:41:02 - DEBUG --> starting index (1520696415)
+2018-03-10 18:41:02 - DEBUG --> index session (21a19021c50ff8575f5279299479378a)
+2018-03-10 18:41:02 - DEBUG --> xxstart(1520696415)
+2018-03-10 18:41:02 - DEBUG --> xxend(1520698215)
+2018-03-10 18:41:02 - DEBUG --> checking session xxxxxx(1520696415)
+2018-03-10 18:41:02 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:41:02 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:41:02 - DEBUG --> checking session(21a19021c50ff8575f5279299479378a)
+2018-03-10 18:41:02 - INFO  --> jsonData {"token":"21a19021c50ff8575f5279299479378a","msisdn":"9696868"}
+2018-03-10 18:41:02 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:41:02 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:41:02 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:41:05 - DEBUG --> starting index (1520696415)
+2018-03-10 18:41:05 - DEBUG --> index session (21a19021c50ff8575f5279299479378a)
+2018-03-10 18:41:05 - DEBUG --> xxstart(1520696415)
+2018-03-10 18:41:05 - DEBUG --> xxend(1520698215)
+2018-03-10 18:41:05 - DEBUG --> checking session xxxxxx(1520696415)
+2018-03-10 18:41:05 - INFO  --> initDB(host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple)
+2018-03-10 18:41:05 - DEBUG --> checking msisdn(9696868)
+2018-03-10 18:41:05 - DEBUG --> checking session(21a19021c50ff8575f5279299479378a)
+2018-03-10 18:41:05 - INFO  --> jsonData {"token":"21a19021c50ff8575f5279299479378a","msisdn":"9696868"}
+2018-03-10 18:41:05 - INFO  --> json_response ${"success":true,"description":"verified"}
+2018-03-10 18:41:05 - DEBUG --> langInfoStr -> verified
+2018-03-10 18:41:05 - DEBUG --> SUCCESSSSSSSS () -> result->200
+2018-03-10 18:55:28 - INFO  --> jold 1111 token
