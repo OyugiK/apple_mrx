@@ -207,7 +207,7 @@
       </div>
       </div> <!-- /container --> 
     <div class="container">   
-      <form class="form-signin" action="register.php?tokenNo=<?php echo($_SESSION['secure-token']); ?>" method="POST">
+      <form class="form-signin" action="register.php" method="POST">
         <h2 class="form-signin-heading">Register to Infinite Loop</h2>
     <script type="text/javascript">
           // this function is called each time someone selects a new option
