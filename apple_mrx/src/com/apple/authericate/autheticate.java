@@ -123,13 +123,13 @@ public class autheticate extends HttpServlet {
 								 * failed login
 								 */
 								status.setSuccess(false);
-								status.setDescription("invalid");
+								status.setDescription("invalid session, the session token is incorrect");
 
 							}
 
 						} else {
 							status.setSuccess(false);
-							status.setDescription("invalid");
+							status.setDescription("invalid session , msisdn doesnt seem to be correct");
 						}
 
 					}
@@ -153,7 +153,7 @@ public class autheticate extends HttpServlet {
 
 			} else {
 				status.setSuccess(false);
-				status.setDescription("invalid credentials. user does not exist in db");
+				status.setDescription("invalid session. user activity is either logged out / wrong request");
 
 			}
 			response.getOutputStream().print(gson.toJson(status));
