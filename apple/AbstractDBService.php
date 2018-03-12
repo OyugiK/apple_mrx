@@ -1,6 +1,5 @@
 <?php
 ob_start();
-error_reporting(E_ALL);
 # This the AbstractDBService, represents a class that all the DB Drivers will inherit from
 abstract class AbstractDBService{
 	# call this to connect - returns connection

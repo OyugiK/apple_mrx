@@ -1,10 +1,12 @@
 <?php
 	
 	# start the session
-	ob_start();
-	    session_start();
+	#ob_start();
+	error_reporting(0);
 
-	error_reporting(E_ALL);
+	session_start();
+
+	#error_reporting(E_ALL);
 
 	# imports
 	require_once("AppleService.php");

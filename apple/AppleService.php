@@ -1,6 +1,6 @@
 <?php
-ob_start();
-error_reporting(E_ALL);
+#ob_start();
+#error_reporting(E_ALL);
 define('__ROOT__', dirname(dirname(__FILE__)));
 require_once("PostgresService.php");
 
@@ -145,7 +145,6 @@ class LipilaService{
 		$status = curl_getinfo($curl, CURLINFO_HTTP_CODE);
 
 		$response = json_decode($json_response, true);
-		var_dump(json_decode($json_response, true));
 		print_r($response[0]);
 
 		foreach($response['items'] as $item) {

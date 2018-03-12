@@ -1,9 +1,8 @@
 <?php
 
   # start the session
-    ob_start();
+    #ob_start();
     #error_reporting(E_ALL);
-    
     # read any flash message before unset
     session_start();
      # imports

@@ -1,7 +1,7 @@
 <?php 
   # start the session
-  ob_start();
-  error_reporting(E_ALL);
+  #ob_start();
+  #error_reporting(E_ALL);
   session_start();
   
   # imports

@@ -1,6 +1,6 @@
 <?php
 	ob_start();
-	error_reporting(E_ALL);
+	#error_reporting(E_ALL);
 	/* Finally, A light, permissions-checking logging class. 
 	 * 
 	 * Author	: Kenneth Katzgrau < katzgrau@gmail.com >
