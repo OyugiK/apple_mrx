@@ -28,7 +28,7 @@ public class DBConnectionHandler {
         try {
         	con = DriverManager.getConnection(
 					//"jdbc:postgresql://inuatestdb.cctm7tiltceo.us-west-2.rds.amazonaws.com:5432/inua", "inua","jw8s0F4"); 
-        			"jdbc:postgresql://localhost:5432/apple", "OyugiK",""); 
+        			"jdbc:postgresql://k1db.ckacsusafjxw.us-east-2.rds.amazonaws.com:5432/apple", "oyugik","xxinxx87"); 
 
         } catch (SQLException ex) {
         	//final Logger logger = Logger.getLogger(DBConnectionHandler.class.getName());
