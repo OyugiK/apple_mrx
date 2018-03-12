@@ -19,3 +19,9 @@ Sample Request:
 	"msisdn":"9696868"
 }
 
+Sample Respinse :
+
+{
+    "success": true,
+    "description": "verified"
+}
