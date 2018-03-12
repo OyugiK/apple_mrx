@@ -2,11 +2,14 @@
   # start the session
   #ob_start();
   #error_reporting(E_ALL);
+  error_reporting(0);
   session_start();
   
   # imports
   require_once("AppleService.php");
   require_once 'Klogger.php';
+  error_reporting(0);
+
 
   $flash = isset($_SESSION['flash-message']) ? $_SESSION['flash-message'] : null;
   $token = isset($_SESSION['token']) ? $_SESSION['token'] : null;
