@@ -152,11 +152,11 @@ class LipilaService{
 		}
 
 		$langInfo = $response;
-		$langInfoStr = print_r($langInfo['description'],true);
+		$langInfoStr = print_r($langInfo['success'],true);
 		$log->LogDebug("langInfoStr -> $langInfoStr");
 		$log->LogDebug("langInfoStr -> $langInfoStr");
 
-		if ($langInfo['description'] = "verified") {
+		if (intval($langInfoStr) == 1) {
 			$log->LogDebug("SUCCESSSSSSSS ($objectID) -> result->".print_r($langInfo['description'],true));
 		    return true;
 		}

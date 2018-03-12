@@ -92,6 +92,7 @@ public class autheticate extends HttpServlet {
 				Integer passwordTries = rs.getInt("pin_tries");
 				String uuid = rs.getString("user_id");
 				String sMSISDN = rs.getString("msisdn");
+				String sName = rs.getString("username");
 
 
 				if (activeFlags.equals(1)) {
@@ -112,9 +113,11 @@ public class autheticate extends HttpServlet {
 								/*
 								 * succesful login
 								 */
+								
+								String msg = "Verified,welcome "+sName;
 
 								status.setSuccess(true);
-								status.setDescription("verified");
+								status.setDescription(msg);
 							} else {
 								/*
 								 * failed login

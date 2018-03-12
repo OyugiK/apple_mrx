@@ -1,5 +1,5 @@
 <?php
-ob_start();
+#ob_start();
 # This the AbstractDBService, represents a class that all the DB Drivers will inherit from
 abstract class AbstractDBService{
 	# call this to connect - returns connection

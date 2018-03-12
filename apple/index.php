@@ -3,7 +3,6 @@
 	# start the session
 	#ob_start();
 	error_reporting(0);
-
 	session_start();
 
 	#error_reporting(E_ALL);
@@ -86,7 +85,7 @@
 				$log->LogDebug("returned false(".print_r($greeting,true).")");
 				$_SESSION['flash-message'] = array("type" => "notice", "msg" => "Invalid session ".print_r($_SESSION['username'],true));
 				$_SESSION['crm_referrer'] = $_SERVER['REQUEST_URI'];
-				header("Location: login.php");
+				header("Location: logout.php");
 			}
         }
     }
