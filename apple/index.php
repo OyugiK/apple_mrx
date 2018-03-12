@@ -65,7 +65,7 @@
 			$log->LogDebug("checking session xxxxxx(".print_r($_SESSION['start'],true).")");
 
 			// $pgConfig =  'host=localhost port=5432 user=postgres password=xxinxx87 dbname=lipilaxy';
-			$pgConfig = "host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple";                        
+			$pgConfig = "host=k1db.ckacsusafjxw.us-east-2.rds.amazonaws.com port=5432 user=oyugik password=xxinxx87 dbname=apple";                                          
 			$log->LogInfo("initDB($pgConfig)");
 			AbstractDBService::init($pgConfig);	
 			
@@ -76,13 +76,15 @@
 			$log->LogDebug("checking session(".print_r($lokks,true).")");
 
 			$greeting = $service->greetingService($lokks, $_SESSION['msisdn']);
-			if ($greeting){
+			if ($greeting == true){
+				$log->LogDebug("returned true(".print_r($greeting,true).")");
 				$_SESSION['flash-message'] = array("type" => "notice", "msg" => "Welcome Back to the private menmbers lounge ".print_r($_SESSION['username'],true));
 			}
 			else{
+				$log->LogDebug("returned false(".print_r($greeting,true).")");
 				$_SESSION['flash-message'] = array("type" => "notice", "msg" => "Invalid session ".print_r($_SESSION['username'],true));
 				$_SESSION['crm_referrer'] = $_SERVER['REQUEST_URI'];
-				header("Location: logout.php");
+				header("Location: login.php");
 			}
         }
     }
