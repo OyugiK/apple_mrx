@@ -124,7 +124,7 @@ class LipilaService{
 		# we set out a new instance of that awesome Klogger
 		$log = new KLogger("/tmp/crm.log", KLogger::DEBUG);
 
-		$url = "http://localhost:8080/apple_mrx/autheticate";    
+		$url = "http://ec2-34-245-152-122.eu-west-1.compute.amazonaws.com:8080/apple_mrx/autheticate";    
 		$myObj->token = $token;
 		$myObj->msisdn = $msisdn;
 		$content = json_encode($myObj);

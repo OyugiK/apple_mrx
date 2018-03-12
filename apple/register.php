@@ -25,7 +25,9 @@
     
   # init DB
   $log = new KLogger ( "/tmp/crm.log" , KLogger::DEBUG ); 
-  $pgConfig = "host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple";                        
+  #$pgConfig = "host=localhost port=5432 user=OyugiK password=xxinxx87 dbname=apple"; 
+  $pgConfig = "host=k1db.ckacsusafjxw.us-east-2.rds.amazonaws.com port=5432 user=oyugik password=xxinxx87 dbname=apple";                        
+                       
   $log->LogInfo("initDB($pgConfig)");
   AbstractDBService::init($pgConfig); 
   
